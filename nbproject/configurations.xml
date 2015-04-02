@@ -9,6 +9,7 @@
                    displayName="Resource Files"
                    projectFiles="true">
       <itemPath>../Ese033-ElencoStudentiSalvaFile/README.md</itemPath>
+      <itemPath>elenco.dat</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -42,6 +43,8 @@
             tool="3"
             flavor2="0">
       </item>
+      <item path="elenco.dat" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -69,6 +72,8 @@
             ex="false"
             tool="3"
             flavor2="0">
+      </item>
+      <item path="elenco.dat" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
