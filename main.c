@@ -36,6 +36,7 @@ int main(int argc, char** argv) {
         printf("%s; %s; %d; %s; \n", studente.nome, studente.cognome, studente.eta, studente.classe);
         fread(&studente,sizeof(studente),1,puntaFile);
     }
+    fclose(puntaFile);
     
     
     return (EXIT_SUCCESS);
